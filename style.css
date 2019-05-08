@@ -1,0 +1,58 @@
+* {
+
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto';
+}
+
+h1 {
+
+  background: rgb(61, 150, 166);
+  color: rgb(25, 12, 41);
+  text-align: center;
+}
+
+.paganti {
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pagante {
+
+  width: 300px;
+  height: 200px;
+  border-radius: 5px;
+  background: rgb(61, 150, 166);
+  color: rgb(25, 12, 41);
+  margin: 20px;
+  text-align: center;
+  padding: 20px;
+  cursor: pointer;
+  position: relative;
+}
+
+ul {
+
+  list-style: none;
+}
+
+.fas-cont {
+
+  position: absolute;
+  top: 83%;
+  left: 77%;
+}
+
+i {
+
+  font-size: 25px;
+
+}
+
+#addr-button {
+
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
